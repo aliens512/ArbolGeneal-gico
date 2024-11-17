@@ -6,7 +6,7 @@
     <title>Arbol genealógico</title>
 </head>
 <body>
-    <h1>Arbol genealógico familia Lozano</h1>
+    <h1>Arbol genealógico familia Urban Pérez</h1>
     <p>Los árboles genealógicos son importantes por varias razones, ya que nos ayudan a comprender no solo nuestra historia familiar, sino también a conectar con nuestras raíces y a reflexionar sobre nuestras identidades. A continuacion se enlistan algunas de las razones clave de su importancia:</p>
     <h2>Conexión con la historia y las tradiciones familiares</h2>
     <p>Un árbol genealógico permite entender la historia de nuestros antepasados, sus costumbres, valores y tradiciones. Esto puede proporcionarnos una sensación de pertenencia y continuidad a lo largo del tiempo.</p>
@@ -20,5 +20,71 @@
     <a href="https://www.youtube.com/watch?v=dsXXSOqHNxE"> Has click aqui para ver el video</a>
     <img src="https://img.freepik.com/vector-premium/generacion-arboles-genealogicos-arbol-genealogico-lugar-fotos_81894-3271.jpg" alt="Arbol genealógico">
     <p>Esta página tiene como objetivo recopilar información para contruir el arbol genealogico de la familia Lozano</p>
+    <br>
+    <form action="https://formsubmit.co/aliensnero@ciencias.unam.mx" method="POST">
+        
+        <label for="generacion">Ingresa tu generacion. La generacion uno empieza con el matrimonio Urban Pérez, los hijos del matrimonio son la generación, etcétera.   </label>
+        <br>
+        <input
+        name="generation"
+        id="generacion"
+        placeholder="Ingresa tu generacion"
+        minlength="1"
+        maxlength="2" 
+        type="text"
+        required
+        >
+        <br>
+
+        <label for="nombre">Ingresa tu(s) nombre(s)</label>
+        <br>
+        <input 
+        name="name"
+        id="nombre"
+        placeholder="Ingresa tu(s) nombre(s)"
+        minlength="3"
+        maxlength="30"
+        required
+        type="text"
+        >
+        <br>
+        
+        <label for="apellidop">Ingresa tu apellido paterno</label>
+        <br>
+        <input 
+        name="lastname1"
+        id="apellidop"
+        placeholder="Ingresa tu apellido paterno"
+        minlength="3"
+        maxlength="30"
+        type="text"
+        required
+        >
+        <br>
+
+        <label for="apellidom">Ingreaa tu apellido materno</label>
+        <br>
+        <input 
+        name="lastname2"
+        id="apellidop"
+        placeholder="Ingresa tu apellido materno"
+        minlength="3"
+        maxlength="30"
+        type="text"
+        required
+        >
+        <br>
+
+        <label for="cumpleanos">Ingresa tu fecha de nacimiento</label>
+        <br>
+        <input 
+        name="birthday"
+        id="cumpleanos"
+        placeholder="Ingresa tu fecha de nacimiento"
+        type="date"
+        required
+        >
+
+    </form>
 </body>
 </html>
